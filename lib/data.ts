@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Personal Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Learned TypeScript, Next.Js and utilized Tailwind CSS to create a modern, smooth, website to showcase my portfolio",
+    tags: ["TypeScript", "Next.js", "React", "Tailwind", "React"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Bioinformatics MSA",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This program takes in Fasta Format sequences, performs multiple sequence alignment, prints out a percent identity matrix, and min/max scores.",
+    tags: ["Java", "Python", "Javascript", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Langchain Multiple PDF Reader",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "An app where you can upload multiple PDFs and have a trained AI model answer questions about them specifically.",
+    tags: ["Python", "Langchain", "Streamlit", "OpenAI"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
