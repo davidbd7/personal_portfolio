@@ -16,16 +16,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering Apprenticeship @Logicsoft",
+    location: "Delhi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Learned industry standards and full-stack development in a summer apprenticeship experience",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineering Internship @Cratus Technology",
+    location: "San Jose, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Gained valuable experience in multiple differnt technologies during my time as an intern here. I am currnetly using python as a backend developer at Cratus.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated from San Jose State University",
+    location: "San Jose California",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Recieved B.S Computer Science Degree on December 18th, 2023",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "December 18th, 2023",
   },
 ] as const;
 
