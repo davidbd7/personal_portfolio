@@ -4,6 +4,7 @@ import Header from '@/components/header'
 import SectionDivider from '@/components/section-divider'
 import ActiveSectionContextProvider from '@/context/active-section-context'
 const inter = Inter({ subsets: ['latin'] })
+import Footer from '@/components/footer'
 
 export const metadata = {
   title: 'David | Personal Portfolio',
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Footer />
         </ActiveSectionContextProvider>
         </body>
     </html>
