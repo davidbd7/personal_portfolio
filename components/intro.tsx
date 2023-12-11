@@ -26,13 +26,13 @@ export default function Intro() {
                             type:"tween",
                             duration: 0.2
                         }}>
-                        <Image src = "https://images.unsplash.com/photo-1701757451197-8bf83100c855?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        <Image src = "https://images.unsplash.com/photo-1702316004281-9dc21e40e304?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D" 
                             alt="David's Portrait"
                             width = "192"
                             height = "192"
                             quality = "95"
                             priority = {true}
-                            className = "h-24 w-24 rounded-full border-[0.35rem] border-white shadow-xl"
+                            className = "h-36 w-36 rounded-full border-[0.35rem] border-white shadow-xl"
                         
                         />
                     </motion.div>
@@ -91,13 +91,13 @@ export default function Intro() {
             </Link>
 
             <a className = "group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 \
-            hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10" href = "/CV.pdf" download> Download CV <HiDownload className = "opacity-60 group-hover:translate-y-1 transition"/></a>
+            hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10" href = "/dec_11_resume.pdf" download> Download CV <HiDownload className = "opacity-60 group-hover:translate-y-1 transition"/></a>
 
             <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] \
-            hover:scale-[1.15] hover: text-gray-950 active:scale-105 transition cursor-pointer border border-black/10" href = "https://linkedin.com" target = "_blank"> <BsLinkedin /> </a>
+            hover:scale-[1.15] hover: text-gray-950 active:scale-105 transition cursor-pointer border border-black/10" href = "https://www.linkedin.com/in/david-daniel-fullstack/" target = "_blank"> <BsLinkedin /> </a>
 
             <a className = "bg-white p-4 text-gray-700 flex items-center gap-2  text-[1.35rem] rounded-full focus:scale-[1.15] \
-            hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10" href = "https://github.com" target = "_blank"> <FaGithubSquare/> </a>
+            hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10" href = "https://github.com/davidbd7" target = "_blank"> <FaGithubSquare/> </a>
 
 
 
